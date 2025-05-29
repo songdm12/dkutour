@@ -27,8 +27,16 @@ body.index-page {
 }
 
 @media (max-width: 600px) {
-    .gallery img {
-        width: 100vw; /* 화면 너비의 90% */
-        height: auto;
-    }
+  .gallery {
+    padding: 0;
+    margin: 0;
+  }
+
+  .gallery img {
+    display: block;
+    width: 100vw;     /* 전체 너비를 가득 채우기 */
+    height: auto;
+    margin: 0 auto;    /* 중앙 정렬 */
+  }
 }
+
