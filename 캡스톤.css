@@ -39,7 +39,7 @@ body, html {
 
   .gallery img {
     display: block;
-    width: 100vw;     /* 전체 너비를 가득 채우기 */
+    width: calc(100vw + 20px);     /* 전체 너비를 가득 채우기 */
     height: auto;
     margin: 0 auto;    /* 중앙 정렬 */
   }
