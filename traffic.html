@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>제주도</title>
+  <title>한국 필수 어플 설명</title>
   <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
 
   <style>
@@ -13,12 +13,12 @@
       padding: 0;
     }
 
-    body.jeju {
-      background-color: #FFE0B2;
+    body.traffic {
+      background-color: #E1F5FE;
     }
 
     nav {
-      background-color: #4E342E;
+      background-color: #263238;
       padding: 1rem;
     }
     nav ul {
@@ -67,7 +67,7 @@
     }
   </style>
 </head>
-<body class="jeju">
+<body class="traffic">
   <nav>
     <ul>
       <li><a href="index.html" style="font-size: 1.5rem;">🏠</a></li>
@@ -80,13 +80,18 @@
   <h1 style="text-align:center;">جزيرة جيجو</h1>
   <div class="slider">
     <div class="slides">
-      <div class="slide"><img src="photos/photojeju1.png" alt="제주사진1"></div>
-      <div class="slide"><img src="photos/photojeju2.png" alt="제주사진2"></div>
-      <div class="slide"><img src="photos/photojeju3.png" alt="제주사진3"></div>
-      <div class="slide"><img src="photos/photojeju4.png" alt="제주사진4"></div>
-      <div class="slide"><img src="photos/photojeju5.png" alt="제주사진5"></div>
-      <div class="slide"><img src="photos/photojeju6.png" alt="제주사진6"></div>
-      <div class="slide"><img src="photos/photojeju7.png" alt="제주사진7"></div>
+      <div class="slide"><img src="photos/phototraffic1.png" alt="제주사진1"></div>
+      <div class="slide"><img src="photos/phototraffic2.png" alt="제주사진2"></div>
+      <div class="slide"><img src="photos/phototraffic3.png" alt="제주사진3"></div>
+      <div class="slide"><img src="photos/phototraffic4.png" alt="제주사진4"></div>
+      <div class="slide"><img src="photos/phototraffic5.png" alt="제주사진5"></div>
+      <div class="slide"><img src="photos/phototraffic6.png" alt="제주사진6"></div>
+      <div class="slide"><img src="photos/phototraffic7.png" alt="제주사진7"></div>
+      <div class="slide"><img src="photos/phototraffic8.png" alt="제주사진7"></div>
+      <div class="slide"><img src="photos/phototraffic9.png" alt="제주사진7"></div>
+      <div class="slide"><img src="photos/phototraffic10.png" alt="제주사진7"></div>
+
+
 
     </div>
     <div class="buttons">
@@ -94,30 +99,6 @@
       <button class="button" onclick="moveSlide(1)">❯</button>
     </div>
   </div>
-
-  <a href="traffic.html" class="floating-button">📱</a>
-
-<style>
-.floating-button {
-  position: fixed;
-  bottom: 20px;      /* 아래에서 20px */
-  right: 20px;       /* 오른쪽에서 20px */
-  font-size: 30px;   /* 이모지 크기 */
-  text-decoration: none;
-  background-color: white;
-  border: 2px solid #ccc;
-  border-radius: 50%;
-  padding: 10px 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s;
-  z-index: 999;
-}
-
-.floating-button:hover {
-  transform: scale(1.1); /* 마우스 올리면 살짝 커짐 */
-}
-</style>
-
 
   <script>
     let currentSlide = 0;

@@ -95,6 +95,30 @@
     </div>
   </div>
 
+  <a href="traffic.html" class="floating-button">📱</a>
+
+<style>
+.floating-button {
+  position: fixed;
+  bottom: 20px;      /* 아래에서 20px */
+  right: 20px;       /* 오른쪽에서 20px */
+  font-size: 30px;   /* 이모지 크기 */
+  text-decoration: none;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  padding: 10px 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  z-index: 999;
+}
+
+.floating-button:hover {
+  transform: scale(1.1); /* 마우스 올리면 살짝 커짐 */
+}
+</style>
+
+
   <script>
     let currentSlide = 0;
     function moveSlide(direction) {
